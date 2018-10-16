@@ -2,6 +2,7 @@
 
 # load our jack session manager
 claudia &
+sleep 3
 
 # clear any existing jack-pulse links
 pacmd unload-module module-jack-sink
@@ -22,4 +23,4 @@ PULSE_SINK=soundboard-out vlc &
 PULSE_SINK=chrome-out google-chrome-stable &
 
 # launch jack applications
-~/Downloads/reaper596_linux_x86_64/reaper_linux_x86_64/REAPER/reaper &
+~/bin/REAPER/reaper
