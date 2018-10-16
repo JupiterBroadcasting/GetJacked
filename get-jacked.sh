@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # load our jack session manager
-claudia &
-sleep 8
+#claudia &
+#sleep 8
 
 # clear any existing jack-pulse links
 pacmd unload-module module-jack-sink
