@@ -1,0 +1,25 @@
+package:
+  wget:
+    installed: true
+  jackd2:
+    installed: true
+  carla-git:
+    installed: true
+  cadence:
+    installed: true
+  non-mixer:
+    installed: true
+  pulseaudio-module-jack:
+    installed: true
+  mididings:
+    installed: true
+  apt-transport-https:
+    installed: true
+  software-properties-common:
+    installed: true
+  libglibmm-2.4-1v5:
+    installed: true
+  jackd2-firewire:
+    installed: true
+  lolcat:
+    installed: false
